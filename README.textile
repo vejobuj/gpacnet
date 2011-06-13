@@ -7,7 +7,7 @@ h2. Requirements
 * Python 2
 * PyGTK - Python bindings for the GTK widget set (pacman -S pygtk)
 * Kiwi - A set of classes and wrappers for PyGTK (pacman -S kiwi)
-* Gazpacho - A GTK+ Glade-compatible GUI designer written in Python (pacman -S gazpacho)
+* Gazpacho - A GTK+ Glade-compatible GUI designer written in Python (AUR: "https://aur.archlinux.org/packages.php?ID=9476":https://aur.archlinux.org/packages.php?ID=9476)
 
 h2. Screenshot
 
