@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://gazpacho.sicem.biz/gazpacho-0.1.dtd">
+<glade-interface domain="gPacnet">
+    <widget class="GtkWindow" id="gpacnet">
+        <property name="allow_shrink">True</property>
+        <property name="default_height">500</property>
+        <property name="default_width">700</property>
+        <property name="window_position">center</property>
+        <child>
+            <widget class="GtkHBox" id="hbox1">
+                <property name="visible">True</property>
+                <child>
+                    <widget class="GtkEventBox" id="category">
+                        <property name="visible">True</property>
+                        <property name="width_request">170</property>
+                        <child>
+                            <placeholder/>
+                        </child>
+                    </widget>
+                    <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                    </packing>
+                </child>
+                <child>
+                    <widget class="GtkVBox" id="vbox1">
+                        <property name="visible">True</property>
+                        <child>
+                            <widget class="GtkEventBox" id="package">
+                                <property name="visible">True</property>
+                                <child>
+                                    <placeholder/>
+                                </child>
+                            </widget>
+                        </child>
+                        <child>
+                            <widget class="GtkScrolledWindow" id="scrolledwindow2">
+                                <property name="height_request">150</property>
+                                <property name="hscrollbar_policy">automatic</property>
+                                <property name="visible">True</property>
+                                <property name="vscrollbar_policy">automatic</property>
+                                <child>
+                                    <widget class="ProxyTextView" id="info">
+                                        <property name="data_type">str</property>
+                                        <property name="editable">False</property>
+                                        <property name="model_attribute">info</property>
+                                        <property name="visible">True</property>
+                                        <property name="wrap_mode">word</property>
+                                    </widget>
+                                </child>
+                            </widget>
+                            <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">False</property>
+                                <property name="position">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <widget class="GtkButton" id="install">
+                                <property name="label">gtk-save</property>
+                                <property name="use_stock">True</property>
+                                <property name="visible">True</property>
+                            </widget>
+                            <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">False</property>
+                                <property name="position">2</property>
+                            </packing>
+                        </child>
+                    </widget>
+                    <packing>
+                        <property name="position">1</property>
+                    </packing>
+                </child>
+            </widget>
+        </child>
+    </widget>
+</glade-interface>
