@@ -3,7 +3,6 @@
 import gtk
 import json
 import urllib
-import commands
 import posix
 import shlex, subprocess
 

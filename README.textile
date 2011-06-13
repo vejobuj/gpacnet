@@ -1,0 +1,14 @@
+h1. gPacnet
+
+gPacnet is a GTK client for "Pacnet":http://pacnet.archlinux.pl/
+
+h2. Requirements
+
+* Python 2
+* PyGTK - Python bindings for the GTK widget set (pacman -S pygtk)
+* Kiwi - A set of classes and wrappers for PyGTK (pacman -S kiwi)
+* Gazpacho - A GTK+ Glade-compatible GUI designer written in Python (pacman -S gazpacho)
+
+h2. Screenshot
+
+!http://farm4.static.flickr.com/3416/3428413499_f1c5cae946.jpg!
